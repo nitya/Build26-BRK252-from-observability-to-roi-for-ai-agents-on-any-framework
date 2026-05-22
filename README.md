@@ -1,36 +1,3 @@
-# 🚀 Get Started
-
-**This repo is where attendees go to continue their learning after your session — and your Copilot agent will help you set it up.**
-
-### Step 1: Open your repo
-
-Open this repo in a **Codespace** (click the green **Code** button → **Create a Codespace**) — or clone it locally. Then open **GitHub Copilot Chat**.
-
-### Step 2: Add your content
-
-Give the agent something to work with. Drag files into the Explorer panel — session abstracts, outlines, screenshots, notes — and drop them in one of two places:
-
-| Where to put it | What goes there | Who sees it |
-|---|---|---|
-| **`_remove-before-publish/`** | Internal reference materials (abstracts, outlines, screenshots, planning docs) | **Copilot only** — never published |
-| **`/docs/`, `/src/`, or repo root** | Lab instructions, demo code, sample data, getting-started guides | **Attendees** — published with the repo |
-
-> 💡 Not sure? Start by dropping your session abstract or outline into `_remove-before-publish/`. The agent will figure out what to do with it.
-
-### Step 3: Ask the Agent
-
-Once your content is in the repo, use these three phrases with Copilot to build out your session repo:
-
-| Phrase to use with Copilot | What it does | When to run it |
-|---|---|---|
-| **"Help me get started"** | Sets up session title, description, outcomes, and owners | After you've added your session abstract or outline to the repo |
-| **"Help me refine content"** | Organizes your session content into the repo | Each time you add or update content |
-| **"Help me finalize"** | Final review, cleanup, and publication prep | When you're ready to publish |
-
-> 💡 **These three phrases are just the starting point.** Copilot can do much more — try asking it to brainstorm next steps for attendees, generate code samples, or build out your repo structure. Don't be afraid to put it in plan mode and ask for what you need.
-
----
-
 <a name="start-building"></a>
 <br>
 <p align="center">
@@ -39,54 +6,65 @@ Once your content is in the repo, use these three phrases with Copilot to build 
 
 # [Microsoft Build 2026](https://build.microsoft.com)
 
-## 🔥 BRKXXX: SESSION TITLE
+## 🔥 BRK252: From observability to ROI for AI agents on any framework
 
 ### Session Description
 
-*Add Session Description*
+Nondeterministic, multi-agent systems break traditional monitoring. As agents reach production, observability must be built in—not added after failures. This session covers modern agent observability: cross-framework tracing and evals, rigorous inner-loop practices, evolving context-specific evals, and always-on signals that connect behavior to business outcomes to measure value, cost, and ROI.
 
-### 🏫 Getting started in a guided session
+### 🚀 Getting started
 
-To get started in a guided lab session:
-- <!-- step 1 -->
-- <!-- step 2 -->
-- <!-- step 3 -->
-
-### 🏠 Getting started in your own environment
-
-If you're following these steps at your own pace:
-- Clone this repository
-- Set up your development environment
-- <!-- step 3 -->
+If you're exploring the topics from this session at your own pace:
+- Review the learning resources below
+- Review the guidance in [docs/README.md](docs/README.md)
 
 ### 🧠 Learning Outcomes
 
 By the end of this session, you will be able to:
 
-- <!-- outcome 1 -->
-- <!-- outcome 2 -->
-- <!-- outcome 3 -->
+- Apply cross-framework tracing and evaluation techniques to gain visibility into nondeterministic, multi-agent systems
+- Establish rigorous inner-loop practices that build observability into agents before they reach production
+- Design and evolve context-specific evals that keep pace with changing agent behavior and requirements
+- Connect always-on production signals to business outcomes to measure agent value, cost, and ROI
 
 ### 💬 Keep Learning with Copilot
 
-Try these prompts with GitHub Copilot to explore the topics from this session. Open Copilot Chat in VS Code (`Ctrl+Alt+I` on Windows/Linux, `Cmd+Shift+I` on Mac), paste a prompt, and see what you learn. Try connecting the [Microsoft Learn MCP Server](#-microsoft-learn-mcp-server) for the latest official documentation.
+Try these prompts with GitHub Copilot to explore the topics from this session. Open Copilot Chat in Visual Studio Code (`Ctrl+Alt+I` on Windows/Linux, `Cmd+Shift+I` on Mac), paste a prompt, and see what you learn. Try connecting the [Microsoft Learn MCP Server](#-microsoft-learn-mcp-server) for the latest official documentation. 
 
 Use these as a starting point — or write your own!
 
-<!-- Prompts will be tailored to this session's content during repo setup. -->
+1. **Distributed tracing in Microsoft Foundry** — "Walk me through how to enable distributed tracing for an AI agent in Microsoft Foundry, including how to view thread results and spans across tools and model calls. Reference [Trace and observe AI agents in Microsoft Foundry](https://learn.microsoft.com/azure/foundry-classic/how-to/develop/trace-agents-sdk) and [Observability in the Agent Framework](https://learn.microsoft.com/agent-framework/agents/observability)."
 
-> *Prompts coming soon — check back after the session content is finalized.*
+2. **Cross-framework observability** — "Explain the core observability capabilities in Microsoft Foundry and how they cover the three stages of the AI application lifecycle (ideate, build, operate) for multi-agent systems. Ground your answer in [Observability in generative AI](https://learn.microsoft.com/azure/foundry/concepts/observability)."
+
+3. **Evals from inner loop to production** — "Show me how to run cloud evaluations with the Microsoft Foundry SDK and connect trace data to evaluation results so I can evolve context-specific evals as my agent changes. Use [Run evaluations in the cloud by using the Microsoft Foundry SDK](https://learn.microsoft.com/azure/foundry/how-to/develop/cloud-evaluation) as the source."
+
+4. **Connecting observability to ROI** — "How do I use the Agent Monitoring Dashboard and fleet-wide monitoring in Microsoft Foundry together with cost optimization to measure agent value, cost, and ROI in production? Reference [Monitor agents with the Agent Monitoring Dashboard](https://learn.microsoft.com/azure/foundry/observability/how-to/how-to-monitor-agents-dashboard), [Monitor agent health and performance across your fleet](https://learn.microsoft.com/azure/foundry/control-plane/monitoring-across-fleet), and [Optimize model cost and performance](https://learn.microsoft.com/azure/foundry/control-plane/how-to-optimize-cost-performance)."
+
+> 💡 Tip: connect the [Microsoft Learn MCP Server](#-microsoft-learn-mcp-server) before running these so Copilot answers from the latest official docs.
 
 ### 💻 Technologies Used
 
-1. <!-- technology 1 -->
-1. <!-- technology 2 -->
-1. <!-- technology 3 -->
+1. [Microsoft Foundry](https://learn.microsoft.com/azure/foundry/agents/overview) — the unified platform for building, deploying, and managing AI agents
+1. [Microsoft Foundry Control Plane](https://learn.microsoft.com/azure/foundry/control-plane/overview) — manage and monitor agent fleets at scale across environments
+1. [Microsoft Foundry Observability](https://learn.microsoft.com/azure/foundry/concepts/observability) — tracing, evaluations, and monitoring across the agent lifecycle
 
 ### 📚 Resources and Next Steps
 
 | Resource | Description |
 |:---------|:------------|
+| [Microsoft Foundry Agent Service](https://learn.microsoft.com/azure/foundry/agents/overview) | Build, deploy, and manage AI agents on Microsoft Foundry |
+| [Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/overview/) | Open framework for building single- and multi-agent systems across .NET and Python |
+| [Microsoft Agent Framework Workflows](https://learn.microsoft.com/agent-framework/workflows/) | Orchestrate multi-agent workflows with durable, observable execution |
+| [Observability in generative AI](https://learn.microsoft.com/azure/foundry/concepts/observability) | Core observability capabilities across the ideate, build, and operate stages |
+| [Trace and observe AI agents in Microsoft Foundry](https://learn.microsoft.com/azure/foundry-classic/how-to/develop/trace-agents-sdk) | Enable distributed tracing for agents and inspect spans in the Foundry portal |
+| [Agent Framework observability](https://learn.microsoft.com/agent-framework/agents/observability) | OpenTelemetry-based tracing and logging for agents across frameworks |
+| [Run cloud evaluations with the Foundry SDK](https://learn.microsoft.com/azure/foundry/how-to/develop/cloud-evaluation) | Run continuous, context-specific evals tied to trace data |
+| [View evaluation results in the Foundry portal](https://learn.microsoft.com/azure/foundry/how-to/evaluate-results) | Compare runs and track quality, safety, and performance over time |
+| [Monitor agents with the Agent Monitoring Dashboard](https://learn.microsoft.com/azure/foundry/observability/how-to/how-to-monitor-agents-dashboard) | Always-on production signals for a single agent |
+| [Monitor agent health across your fleet](https://learn.microsoft.com/azure/foundry/control-plane/monitoring-across-fleet) | Cross-agent monitoring for production operations |
+| [Optimize model cost and performance](https://learn.microsoft.com/azure/foundry/control-plane/how-to-optimize-cost-performance) | Connect observability signals to cost and ROI decisions |
+| [Plan and manage costs for Microsoft Foundry](https://learn.microsoft.com/azure/foundry/concepts/manage-costs) | Budgeting and cost monitoring for Foundry workloads |
 | [https://aka.ms/build26-next-steps](https://aka.ms/build26-next-steps) | Explore lab and session repos to further your learning from Microsoft Build |
 
 
@@ -108,17 +86,22 @@ For more info, other clients, and to post questions, visit the [Learn MCP Server
 
 ## Content Owners
 
-<!-- TODO: Add yourself as a content owner
-1. Change the src in the image tag to {your github url}.png
-2. Change INSERT NAME HERE to your name
-3. Change the github url in the final href to your url. -->
-
 <table>
 <tr>
-    <td align="center"><a href="http://github.com/yourGitHubHandle">
-        <img src="https://github.com/yourGitHubHandle.png" width="100px;" alt="INSERT NAME HERE"/><br />
-        <sub><b>INSERT NAME HERE</b></sub></a><br />
-            <a href="https://github.com/yourGitHubHandle" title="talk">📢</a>
+    <td align="center"><a href="https://github.com/skohlmeier">
+        <img src="https://github.com/skohlmeier.png" width="100px;" alt="Sebastian Kohlmeier"/><br />
+        <sub><b>Sebastian Kohlmeier</b></sub></a><br />
+            <a href="https://github.com/skohlmeier" title="talk">📢</a>
+    </td>
+    <td align="center"><a href="https://github.com/fubaduba">
+        <img src="https://github.com/fubaduba.png" width="100px;" alt="Filisha Shah"/><br />
+        <sub><b>Filisha Shah</b></sub></a><br />
+            <a href="https://github.com/fubaduba" title="talk">📢</a>
+    </td>
+    <td align="center"><a href="https://github.com/vbhadauria">
+        <img src="https://github.com/vbhadauria.png" width="100px;" alt="Vivek Bhadauria"/><br />
+        <sub><b>Vivek Bhadauria</b></sub></a><br />
+            <a href="https://github.com/vbhadauria" title="talk">📢</a>
     </td>
 </tr></table>
 

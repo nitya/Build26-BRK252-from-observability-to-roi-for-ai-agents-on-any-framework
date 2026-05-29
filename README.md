@@ -88,10 +88,10 @@ For more info, other clients, and to post questions, visit the [Learn MCP Server
 
 <table>
 <tr>
-    <td align="center"><a href="https://github.com/skohlmeier">
-        <img src="https://github.com/skohlmeier.png" width="100px;" alt="Sebastian Kohlmeier"/><br />
+    <td align="center"><a href="https://github.com/skohlmeier123">
+        <img src="https://github.com/skohlmeier123.png" width="100px;" alt="Sebastian Kohlmeier"/><br />
         <sub><b>Sebastian Kohlmeier</b></sub></a><br />
-            <a href="https://github.com/skohlmeier" title="talk">📢</a>
+            <a href="https://github.com/skohlmeier123" title="talk">📢</a>
     </td>
     <td align="center"><a href="https://github.com/fubaduba">
         <img src="https://github.com/fubaduba.png" width="100px;" alt="Filisha Shah"/><br />

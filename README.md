@@ -26,6 +26,7 @@ By the end of this session, you will be able to:
 - Establish rigorous inner-loop practices that build observability into agents before they reach production
 - Design and evolve context-specific evals that keep pace with changing agent behavior and requirements
 - Connect always-on production signals to business outcomes to measure agent value, cost, and ROI
+- Optimize for scale with a unified end-to-end observability capabilities
 
 ### 💬 Keep Learning with Copilot
 

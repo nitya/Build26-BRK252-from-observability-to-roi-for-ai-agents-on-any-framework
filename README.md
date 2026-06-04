@@ -68,6 +68,7 @@ Use these as a starting point — or write your own!
 | [Plan and manage costs for Microsoft Foundry](https://learn.microsoft.com/azure/foundry/concepts/manage-costs) | Budgeting and cost monitoring for Foundry workloads |
 | [LAB540: Observe, optimize and protect your hosted agents in Microsoft Foundry](https://github.com/microsoft/Build26-LAB540-observe-optimize-and-protect-your-hosted-agents-in-microsoft-foundry) | Related Build 2026 lab content |
 | [https://aka.ms/build26-next-steps](https://aka.ms/build26-next-steps) | Explore lab and session repos to further your learning from Microsoft Build |
+| [Watch the session recording](https://aka.ms/build26/BRK252/youtube) | Watch the recorded Microsoft Build session. |
 
 
 ### 🌟 Microsoft Learn MCP Server

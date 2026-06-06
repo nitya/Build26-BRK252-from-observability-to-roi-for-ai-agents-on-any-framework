@@ -6,9 +6,7 @@
 
 # [Microsoft Build 2026](https://build.microsoft.com)
 
-# BRK252: From observability to ROI for AI agents on any framework
-
-## Session Description
+## BRK252: From observability to ROI for AI agents on any framework
 
 Nondeterministic, multi-agent systems break traditional monitoring. As agents reach production, observability must be built in—not added after failures. This session covers modern agent observability: cross-framework tracing and evals, rigorous inner-loop practices, evolving context-specific evals, and always-on signals that connect behavior to business outcomes to measure value, cost, and ROI.
 
